@@ -2,4 +2,3 @@ log/*
 tmp/*
 .DS_Store
 db/*
-Gemfile.lock
