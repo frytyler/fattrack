@@ -77,3 +77,188 @@ ActionController::RoutingError (No route matches [GET] "/"):
 
 
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-01 22:03:54 -0500
+Connecting to database specified by database.yml
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (3.5ms)
+Compiled app.css  (7ms)  (pid 7148)
+Compiled application.css  (17ms)  (pid 7148)
+Compiled jquery.js  (1ms)  (pid 7148)
+Compiled jquery_ujs.js  (1ms)  (pid 7148)
+Completed 500 Internal Server Error in 328ms
+
+ActionView::Template::Error (
+  (in D:/Server/Sites/fattrack/app/assets/javascripts/app.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__223983956_37326552'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-01 22:05:42 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-01 22:05:42 -0500
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2012-12-01 22:05:42 -0500
+Served asset /app.css - 200 OK (23ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-01 22:05:49 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 219ms
+
+ActionView::Template::Error (
+  (in D:/Server/Sites/fattrack/app/assets/javascripts/app.js.coffee)):
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__223983956_37869216'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (0.0ms)
+Compiled app.js  (1ms)  (pid 7148)
+Compiled application.js  (49ms)  (pid 7148)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /app.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-01 22:06:21 -0500
+Served asset /application.js - 200 OK (5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (3.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMealTypes (20121202031206)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "meal_types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121202031206')
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("meal_types")
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMealTypes (20121202031206)
+Migrating to CreateMeals (20121202031514)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "meals" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "typeid" integer, "date" date, "consumptionlevel" integer, "timing" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121202031514')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+Migrating to CreateMealItems (20121202031554)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "meal_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "mealid" integer, "description" varchar(255), "healthlevel" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121202031554')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("meal_items")[0m
+  [1m[35m (1.0ms)[0m  PRAGMA index_list("meal_types")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("meals")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMealTypes (20121202031206)
+Migrating to CreateMeals (20121202031514)
+Migrating to CreateMealItems (20121202031554)
+Migrating to CreateUsers (20121202031754)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121202031754')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+Migrating to AddUserIdToMeals (20121202031852)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "meals" ADD "user_id" integer
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121202031852')[0m
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("meal_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("meal_types")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("meals")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMealTypes (20121202031206)
+Migrating to CreateMeals (20121202031514)
+Migrating to CreateMealItems (20121202031554)
+Migrating to CreateUsers (20121202031754)
+Migrating to AddUserIdToMeals (20121202031852)
+Migrating to AddUsers (20121202032052)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121202032052')
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("meal_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("meal_types")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("meals")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
