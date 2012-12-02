@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.5'
 gem 'pg'
 gem 'thin', "1.3.1"
+gem 'eventmachine'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'jquery-rails'
