@@ -1,2 +1,35 @@
-<h1>App#index</h1>
-<p>Find me in app/views/app/index.html.erb</p>
+<div class="container">
+	<div class="row">
+		<div class="span8 meal-list">
+			<h1>Meals</h1>
+			<ul>
+				<li>
+					<span>Super</span>
+					<span>Dec 1st</span>
+					<span>Thai Beef Soup, Rice Chicken Shimp Tum Sum, 2 cans of Pepsi</span>
+					<span class="label label-warning">Okay</span>
+				</li>
+				<li>
+					<span>Super</span>
+					<span>Dec 1st</span>
+					<span>Thai Beef Soup, Rice Chicken Shimp Tum Sum, 2 cans of Pepsi</span>
+					<span class="label label-warning">Okay</span>
+				</li>
+				<li>
+					<span>Super</span>
+					<span>Dec 1st</span>
+					<span>Thai Beef Soup, Rice Chicken Shimp Tum Sum, 2 cans of Pepsi</span>
+					<span class="label label-warning">Okay</span>
+				</li>
+			</ul>
+		</div>	
+		<aside class="span4">
+			<h2>Add</h2>
+			<%= form_tag do %>
+				<%= select_tag :meal_type_id, options_for_select([['Breakfast', 1], ['Lunch', 2]]), class: 'span2' %>
+				<%= text_field_tag :date, params[:date], placeholder: 'Date', class: 'span2' %>
+	      <%= submit_tag "Add", class: "btn btn-primary" %>
+			<% end %>
+		</aside>
+	</div>
+</div>

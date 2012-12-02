@@ -163,7 +163,7 @@ DEPENDENCIES
   guard-rspec
   jquery-rails
   mysql2
-  normalize-rails
+  normalize-rails (~> 2.0.1)
   pg
   rails (= 3.2.5)
   rspec-rails
