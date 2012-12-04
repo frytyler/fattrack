@@ -1734,3 +1734,224 @@ Served asset /app.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-02 00:23:10 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:48:27 -0500
+Connecting to database specified by database.yml
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (42.0ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:49:15 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:50:25 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:50:30 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:50:34 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Compiled app.css  (2ms)  (pid 9696)
+Compiled normalize-rails/normalize.css  (0ms)  (pid 9696)
+Compiled normalize-rails/index.css  (12ms)  (pid 9696)
+Compiled application.css  (28ms)  (pid 9696)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /app.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-04 11:51:13 -0500
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/normalize-rails/index.css?body=1" for 127.0.0.1 at 2012-12-04 11:51:14 -0500
+Served asset /normalize-rails/index.css - 200 OK (4ms)
+
+
+Started GET "/assets/normalize-rails/normalize.css?body=1" for 127.0.0.1 at 2012-12-04 11:51:14 -0500
+Served asset /normalize-rails/normalize.css - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:51:20 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__82250294_37657332'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:55:27 -0500
+Connecting to database specified by database.yml
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__213864366_39144708'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-04 11:55:31 -0500
+Processing by AppController#index as HTML
+  Rendered app/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (different prefix: "E:/" and "D:/Server/Sites/fattrack/app/assets/stylesheets"
+  (in D:/Server/Sites/fattrack/app/assets/stylesheets/app.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Fat Track</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= render 'layouts/shim' %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__213864366_39144708'
+
+
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered E:/Programs/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
