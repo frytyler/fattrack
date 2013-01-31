@@ -37,6 +37,8 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
+Route::get('meal/(:num)/items', 'Meal_Item@index');
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
