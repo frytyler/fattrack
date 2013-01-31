@@ -14,13 +14,14 @@ class Create_Meals_Table {
 		    $table->increments('id');
 		    $table->string('name',255);
 		    $table->string('category',64);
+		    $table->integer('sequence');
 		    $table->timestamps();
 
 		});
 		Schema::create('meals', function($table)
 		{
 		    $table->increments('id');
-				$table->integer('type_id');
+			$table->integer('type_id');
 		    $table->date('eaten_at');
 		    $table->timestamps();
 		    $table->integer('consumption_level');
@@ -45,7 +46,7 @@ class Create_Meals_Table {
 	{
 		Schema::drop('meal_types');
 		Schema::drop('meals');
-		Schema::drop('meal_item');
+		Schema::drop('meal_items');
 	}
 
 }

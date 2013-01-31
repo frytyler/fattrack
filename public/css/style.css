@@ -35,8 +35,10 @@ float: left;
 width: 72%;
 }
 
-h1 {font-family: 'ProximaNovaSoft-Semibold'; font-size: 72px;  letter-spacing: -7px; color: #FFE184; }
-h1 .bam { color: #FF9666; }
+h1 {font-family: 'ProximaNovaSoft-Semibold'; font-size: 72px;  letter-spacing: -7px; color: #FF9666; margin:10px 0; }
+h1 .bam { color: #FFE184; }
+
+#content .grid_4 { background-color: #F5E9BE; padding: 15px; border-radius: 5px; }
 /*h1 {font-family: 'ProximaNovaSoft-Medium';}
 h1 {font-family: 'ProximaNovaSoft-Bold';}
 h1 {font-family: 'ProximaNovaSoft-Regular';}*/

@@ -10,7 +10,10 @@
 	{{ HTML::style('/css/style.css') }}
 	
 	{{ HTML::script('/vendor/jquery.js') }}
+	{{ HTML::script('/vendor/underscore.js') }}
+	{{ HTML::script('/vendor/backbone.js') }}
 	{{ HTML::script('/vendor/modernizr.js') }}
+	{{ HTML::script('/js/main.js') }}
 
 </head>
 <body>
@@ -18,14 +21,18 @@
 	
 
 	<div class="container">
-		<div class="grid_8"><h1>Fat<span class="bam">track</span></h1></div>
+		<div class="grid_8"><h1>Fat<span class="bam">track </span> </h1></div>
 		<div class="grid_4">My Profile</div>
 	</div>
 
-	<div class="container">
+	<div class="container" id="content">
 		<div class="grid_8">asdfasdfsa</div>
 		<div class="grid_4">asdfasdfsa</div>
 	</div>
 	
+	<script id="mealItemTemplate" type="template">
+		Meal Item {{ description }}
+	</script>
+
 </body>
 </html>
