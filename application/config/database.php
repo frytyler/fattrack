@@ -69,10 +69,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => '127.0.0.1',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'host'     => '216.70.84.131',
+			'database' => 'fattrack_dev',
+			'username' => 'fattrack_dev',
+			'password' => 'tykor345',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
